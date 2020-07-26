@@ -7,6 +7,7 @@
                                     {{ range .Site.Params.education.list }}
                                     <li class="mb-3">
                                         <div class="resume-degree font-weight-bold">{{ .degree }}</div>
+                                        <div class="resume-degree-honors text-muted">{{ .honors }}</div>
                                         <div class="resume-degree-org text-muted">{{ .university }}</div>
                                         <div class="resume-degree-time text-muted">{{ .dates }}</div>
                                     </li>
