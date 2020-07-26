@@ -212,9 +212,19 @@ a.resume-link {
     }
 }
 
-
-
-
-
-
-
+@media screen {
+    .main {
+        display: unset
+    }
+    .printer-friendly {
+        display: none
+    }
+}
+@media print {
+    .main {
+        display: none
+    }
+    .printer-friendly {
+        display: unset
+    }
+}
